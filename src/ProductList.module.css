@@ -1,0 +1,22 @@
+.productWrap{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+.productItem{
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  padding: 0px 0px 20px;
+  background-color: #fefae0;
+}
+
+.productPhoto{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position:0% 25% ;
+}

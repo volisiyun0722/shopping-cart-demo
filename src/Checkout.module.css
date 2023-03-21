@@ -1,0 +1,115 @@
+.productPhoto{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 10px;
+    object-position:0% 25% ;
+}
+
+.productInfoText{
+    text-align: center;
+}
+
+.productDescription{
+    display: none;
+}
+
+.chartWrap{
+    margin: auto;
+    display: block;
+}
+
+@media screen and (min-width:768px){
+    .productPhoto{
+        min-width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+    .productInfo{
+        display: flex;
+        align-items:center;
+    }
+    .productInfoText{
+        margin-left: 20px;
+        text-align: left;
+        max-width: 600px;
+    }
+    .productDescription{
+        display: block;
+        color:#606c38;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .chartWrap{
+        padding:15px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+.chartTable{
+    margin:auto;
+    background-color:#fefae0;
+    text-align: center;
+    border-collapse: collapse;
+    max-width:850px;
+}
+.tableTitle{
+    width: 120px;
+}
+
+.productName{
+    margin: 0px 0px 10px 0px;
+    font-weight: 800;
+    color:#283618;
+}
+
+
+table th{
+    padding: 15px;
+    background-color: #283618;
+    color:#fff;
+    margin: 10px;
+}
+
+table tr{
+    background-color: #fefae0;
+    border-bottom: 3px solid #fff;
+}
+
+
+.grandTotalSection{
+    background-color:#fff;
+    text-align: center;
+    margin: 15px auto;
+    min-width: 230px;
+}
+
+.grandTotal{
+    font-size:40px ;
+    font-weight: 700;
+    color: #283618;
+}
+
+.freeShipping{
+    color:#606c38;
+}
+
+.noProduct{
+    text-align: center;
+}
+
+.backLink{
+    margin: auto;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #283618;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+

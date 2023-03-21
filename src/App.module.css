@@ -1,0 +1,17 @@
+.navBar{
+    background-color: #283618;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navBtn{
+    display: inline-block;
+    text-decoration: none;
+    color:#000;
+    background-color: #fefae0;
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 10px;
+}

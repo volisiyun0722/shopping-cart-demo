@@ -1,0 +1,52 @@
+
+
+.wrap{
+    margin:auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.productInfo{
+    margin: auto;
+    padding: 25px 15px;
+    background-color:#fefae0;
+    width: 70%;
+}
+
+
+
+
+.productInfo .productTxt{
+    margin: auto;
+    padding: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .productInfo{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }  
+    .productInfo .productTxt{
+        text-align: left;
+        margin: 10px;
+    }
+}
+
+
+
+/* 返回產品列表按鈕 */
+.backLink{
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background-color: #283618;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

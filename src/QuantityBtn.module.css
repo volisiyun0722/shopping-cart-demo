@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.btn{
+    color:#fff;
+    background-color:#283618;
+    height: 30px;
+    font-weight: 600;
+}
+
+.qtyBtn{
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.chartBtn{
+    display: inline-block;
+    padding: 4px 15px;
+    border-radius: 10px;
+}
+
+.qty{
+    text-align: center;
+    display: inline-block;
+    width: 15px;
+}
